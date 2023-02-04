@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
+  height: 10px;
+}
+
+.baba {
+}
+
+li img {
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(62, 62, 62);
+  height: 50px;
+  padding-right: 90px;
+  margin-top: 170px;
+  position: sticky;
+  top: 0px;
+}
+
+ul li {
+  float: left;
+}
+.baba1 {
+  margin-top: 6px;
+}
+
+.baba {
+  margin-top: 175px;
+}
+.h3 {
+  color: white;
+  margin-top: 175px;
+  margin-left: 40px;
+  font-size: 36px;
+  font-family: math;
+}
+.h1 {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: math;
+  margin-left: 46px;
+  margin-top: 1px;
+}
+.h4 {
+  color: white;
+  margin-left: 40px;
+  font-size: 25px;
+  font-family: math;
+  margin-top: 18px;
+}
+
+.Port1 {
+  color: black;
+  background-color: red;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-left: 43px;
+  margin-top: 26px;
+  padding-left: 23px;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+.Port1:hover {
+  color: white;
+}
+
+.logo {
+}
+.p {
+  color: red;
+}

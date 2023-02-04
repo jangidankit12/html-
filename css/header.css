@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  border: 2px;
+  background-color: chartreuse;
+  height: 94px;
+  margin-top: -16px;
+}
+
+.navbar li {
+  float: left;
+  margin-top: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin-left: 50%;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-left: 18px;
+  margin-top: 10%;
+}
+
+.navbar :hover {
+  color: rgb(0, 51, 236);
+}
+.login {
+  height: 28px;
+  width: 84px;
+  margin-top: 34px;
+  margin-left: 22px;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  margin-left: -666px;
+  margin-top: -29px;
+}
