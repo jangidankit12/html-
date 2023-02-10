@@ -27,3 +27,14 @@ body {
   margin-left: 20px;
   text-decoration: none;
 }
+.ak {
+  background-color: red;
+  margin-top: 78rem;
+  height: 50rem;
+}
+
+.ok {
+  display: flex;
+  height: 15.8rem;
+  width: 20rem;
+}
