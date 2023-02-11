@@ -2,39 +2,14 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: chartreuse;
+.navbar {
+  background-color: aqua;
+  padding: 30px;
+  margin: 20px;
   background-size: cover;
-  background-image: url(C:\Users\ankit\OneDrive\Desktop/);
+  
 }
-
-.navbar ul {
-  background-color: chocolate;
-  margin-left: 60px;
-  color: blue;
-  padding: 23px;
-  display: flex;
-  margin-left: -58px;
-  text-decoration: none;
-  margin-top: -1px;
-  list-style: none;
-  margin-left: 10p;
-  padding-left: 33rem;
-}
-
-.navbar a {
-  padding-left: 70px;
-  margin-left: 20px;
-  text-decoration: none;
-}
-.ak {
-  background-color: red;
-  margin-top: 78rem;
-  height: 50rem;
-}
-
-.ok {
-  display: flex;
-  height: 15.8rem;
-  width: 20rem;
+body {
+  background-color: brown;
+  background-size: cover;
 }
