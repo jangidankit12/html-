@@ -5,7 +5,7 @@
 
 .nav {
   background-color: black;
-  height: 60px;
+  height: 4rem;
 }
 
 .nav ul {
@@ -19,17 +19,118 @@
 .nav ul li a {
   float: left;
   text-decoration: none;
-  padding: 10px;
-  padding-left: 41px;
+  padding: 1rem;
+  padding-left: 3rem;
   color: white;
   text-transform: capitalize;
-  margin-top: 11px;
+  margin-top: 0.5rem;
 }
 .background {
-  height: 35rem;
+  height: 32.7rem;
   width: 78.9rem;
 }
-
 .nav a:hover {
   color: red;
+}
+
+.port {
+  margin-top: -18rem;
+  margin-left: 50rem;
+}
+
+/* 
+
+@media (max-width:) {
+  html{
+    font-size: 55%;
+  }
+  
+  .main_heading{
+    font-size: 30px;
+  }
+  .main_heading_div h2{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1242rem) {
+  html {
+    font-size: 100%;
+    width: 80rem;
+  }
+}
+@media (max-width: 768rem) {
+  html {
+    font-size: 99%;
+  }
+} 
+
+@media (max-width: 3647rem) {
+  .background {
+    font-size: 100%;
+    width: 99rem;
+  }
+}
+
+@media (min-width: 51rem) {
+  .background {
+    width: 40rem;
+  }
+} */
+
+.signup {
+  background-color: white;
+  height: 30rem;
+}
+
+.form {
+  margin-top: 25rem;
+  margin-left: 46rem;
+  font-size: 1rem;
+}
+
+.form input {
+  height: 5vh;
+  width: 45vh;
+  padding-left: 1vh;
+  border-radius: 0.3rem;
+  border: 1px solid #5d5d5d;
+}
+.form label {
+  font-family: sans-serif;
+  color: #5d5d5d;
+  font-size: 0.8rem;
+}
+.signup img {
+  height: 24rem;
+  margin-top: -27rem;
+  margin-left: 7rem;
+}
+.form h2 {
+  color: green;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-left: 4rem;
+}
+.form h4 {
+  font-size: 0.7rem;
+  color: #5d5d5d;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 2.8rem;
+}
+
+.form button {
+  height: 6vh;
+  background-color: green;
+  color: white;
+  width: 46.5vh;
+  border: none;
+  cursor: pointer;
+}
+.form p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  padding-top: 0.7rem;
+  color: #5d5d5d;
 }
