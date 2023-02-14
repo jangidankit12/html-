@@ -95,6 +95,11 @@
   padding-left: 1vh;
   border-radius: 0.3rem;
   border: 1px solid #5d5d5d;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid red;
 }
 .form label {
   font-family: sans-serif;
@@ -118,6 +123,9 @@
   margin-left: 1rem;
   margin-top: 0.8rem;
   margin-left: 2.8rem;
+}
+.form h4 span {
+  color: black;
 }
 
 .form button {
