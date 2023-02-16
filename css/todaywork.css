@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 10px;
+  float: left;
+  margin: 8px;
+  margin-top: 2px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.navbar ul {
+  margin-left: 735px;
+}
+.navbar a:hover {
+  color: aqua;
+}
+
+/* 
+.main1 {
+  width: 23%;
+  padding: 30px;
+  position: absolute;
+}
+
+.main1 img {
+  height: 100%;
+  width: 100%;
+  left: 0%;
+ 
+}
+
+.main2 {
+  width: 23%;
+  padding: 30px;
+  position: absolute;
+  margin-top: -49px;
+  height: 202px;
+}
+.main2 img {
+  height: 100%;
+
+  width: 100%;
+  left: 100%;
+
+
+}
+
+.main3 {
+  width: 23%;
+  margin-top: -49px;
+  position: absolute;
+  padding: 30px;
+  height: 203px;
+}
+.main3 img {
+  height: 100%;
+
+  width: 100%;
+  left: 300%;
+
+
+}
+
+.main4 {
+  height: 186px;
+  width: 23%;
+  padding: 30px;
+  margin-top: -49px;
+  position: absolute;
+}
+.main4 img {
+  height: 109%;
+  width: 100%;
+  left: 400%;
+
+}
+
+.main{
+
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.myimg{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#ab1{
+
+    left: 0%;
+}
+
+#ab2{
+
+    left: 100%;
+}
+
+#ab3{
+
+    left: 200%;
+}
+
+#ab4{
+
+    left: 300%;
+} */
+.main {
+  margin-left: 508px;
+}
+.main h1 {
+  margin-top: -263px;
+  margin-left: -299px;
+  height: 359px;
+}
+.main img {
+  height: 32rem;
+  width: 41rem;
+  margin-left: 81px;
+  margin-top: 50px;
+}
+.a1 {
+  height: 18rem;
+  width: 392px;
+  margin-left: 21px;
+}
+
+.am {
+  display: flex;
+}
+.bb {
+  display: flex;
+}
