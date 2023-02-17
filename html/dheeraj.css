@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: aqua;
+  height: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin-left: 800px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: red;
+  margin-top: 10px;
+  padding: 10px;
+}
+.navbar ul li {
+  margin-top: 9px;
+}
+.heading {
+  background: url(../images/child4.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  width: 700px;
+  margin-top: 10px;
+  margin-left: 700px;
+  margin-left: 562px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery1 img {
+  height: 100px;
+  width: 200px;
+}
+
+.gallery1 {
+}
