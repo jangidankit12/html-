@@ -1,0 +1,11 @@
+array of string 
+array of object 
+array of number 
+mix array (n,s,o) min 5 element
+array and object 
+array[index form ] 
+object{index form} 
+get value of index1 var
+array1=['a','b','c',5,10] 
+var data = array1[1]
+ console.log(data)
