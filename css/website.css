@@ -198,9 +198,12 @@
 .gallery1img {
   height: 21rem;
   width: 14rem;
-  transform: skewY(2deg);
+  transform: scale(1.01);
   margin-top: 11rem;
   margin-left: 2.3rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  transform: skewY(2deg);
 }
 .gallery1 h1 {
   color: white;
@@ -246,12 +249,162 @@
   display: flex;
 }
 
-.gallery1 {
+.gallery1 :hover {
+  transform: translateY(-3rem);
 }
 
+.gallery1 {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
 .bordergallary4 {
   border-right: 1px dotted rgba(255, 255, 255, 0.5);
   height: 45rem;
   margin-top: 10rem;
   margin-right: 1rem;
+}
+
+.circle {
+  top: 286rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  background-color: #1c427e;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+}
+.work {
+  color: white;
+  margin-left: 6rem;
+  margin-top: 9rem;
+}
+
+.par {
+  color: white;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-size: 3.7rem;
+  line-height: 1.15;
+  width: 83.3333333333%;
+}
+
+.author {
+  color: #c4e5f6;
+  font-size: 2.8rem;
+  margin-left: 56rem;
+  margin-top: 5rem;
+  font-family: sans-serif;
+}
+
+.author p {
+  font-size: 1rem;
+  margin-top: 0.1rem;
+  margin-left: 4rem;
+  color: white;
+}
+.showcase {
+  letter-spacing: -0.05em;
+  color: white;
+  margin-left: 5.3rem;
+  margin-top: 7rem;
+  font-size: 1.4rem;
+}
+
+.startproject {
+  letter-spacing: -0.05em;
+  color: #c4e5f6;
+  font-family: sans-serif;
+  font-size: 5rem;
+  font-weight: unset;
+  margin-left: 5rem;
+  letter-spacing: 0rem;
+}
+
+.maingallary {
+}
+
+.img1 img {
+  height: 36rem;
+  width: 46rem;
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+}
+
+.img2 img {
+  margin-top: -75.2rem;
+  margin-left: 51.4rem;
+  width: 25rem;
+  height: 38.2rem;
+}
+
+.span1 {
+  color: #c4e5f6;
+  margin-left: 52rem;
+}
+
+.span2 {
+  color: #fefefe;
+  margin-left: 14rem;
+}
+
+.span3 {
+  color: #c4e5f6;
+  margin-left: 4rem;
+}
+
+.span4 {
+  color: #fefefe;
+  margin-left: 33rem;
+}
+
+.maingallary1 {
+  display: flex;
+  margin-top: 1rem;
+}
+.dualphoto img {
+  height: 18.6rem;
+  width: 21rem;
+  margin-left: -2.5rem;
+  padding-left: 5rem;
+}
+.span5 {
+  color: #c4e5f6;
+  margin-left: 3rem;
+  padding-left: 1.3rem;
+}
+.span6 {
+  color: white;
+  margin-left: 7rem;
+}
+
+.dualphoto1 img {
+  height: 26.6rem;
+  width: 22rem;
+  margin-left: 4.5rem;
+}
+.span7 {
+  color: #c4e5f6;
+  margin-left: 5rem;
+}
+.span8 {
+  color: white;
+  margin-left: 7rem;
+}
+
+.img6 img {
+  height: 32rem;
+  width: 45rem;
+  margin-left: 2.6rem;
+  margin-top: -4rem;
+}
+
+.span9 {
+  color: #c4e5f6;
+  margin-left: 4rem;
+}
+.span10 {
+  color: white;
+  margin-left: 31.7rem;
 }
