@@ -535,3 +535,76 @@
 .papadiv {
   display: flex;
 }
+
+.footer11 {
+  display: flex;
+}
+
+.footer11 h1 {
+  color: #c4e5f6;
+  font-size: 1rem;
+  margin-top: 16rem;
+  margin-left: 6.8rem;
+  text-align: center;
+}
+
+.footer11 h2 {
+  color: #c4e5f6;
+  font-size: 1rem;
+  margin-top: 16rem;
+  margin-left: 51rem;
+}
+
+.footer1 {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.navbar {
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+}
+.navbar ul {
+  list-style: disc;
+  text-transform: uppercase;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.babashyam span a {
+  font-size: 1rem;
+
+  color: white;
+  font-family: sans-serif;
+}
+
+.babashyam {
+  display: flex;
+}
+
+.babashyam h2 a {
+  font-size: 1.2rem;
+
+  color: white;
+  font-family: sans-serif;
+}
+
+.span12 {
+  margin-left: 52rem;
+  margin-top: -1.2rem;
+}
+
+.span11 {
+  margin-top: -1.2rem;
+  margin-left: 2rem;
+}
