@@ -204,6 +204,7 @@
   margin-bottom: 2.5rem;
   position: relative;
   transform: skewY(2deg);
+  transition: 3s;
 }
 .gallery1 h1 {
   color: white;
@@ -236,6 +237,7 @@
   border-left: 1px dotted rgba(255, 255, 255, 0.5);
   height: 47rem;
   margin-left: 0rem;
+  transition: 3s;
   margin-top: -46rem;
 }
 .bordergallary3 {
@@ -288,6 +290,7 @@
   font-size: 3.7rem;
   line-height: 1.15;
   width: 83.3333333333%;
+  z-index: 1;
 }
 
 .author {
@@ -407,4 +410,128 @@
 .span10 {
   color: white;
   margin-left: 31.7rem;
+}
+
+.mainpicimg img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  margin-left: 24rem;
+  margin-top: 13rem;
+}
+.mainpicimg1 h1 {
+  color: #c4e5f6;
+  margin-left: 33.6rem;
+  margin-top: -6rem;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.mainpicimg1 p {
+  color: white;
+  margin-left: 34rem;
+  margin-top: 0.4rem;
+  font-family: sans-serif;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.para1 {
+  margin-left: 34rem;
+  margin-top: 2rem;
+  color: white;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+.para2 {
+  margin-left: 34rem;
+  margin-top: 2rem;
+  color: white;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+.mailinput input {
+  color: white;
+  height: 2.9rem;
+
+  border: 1px solid #d1d1d1;
+  margin-left: 34rem;
+  margin-top: 1rem;
+  border-radius: 3rem 0rem 0rem 3rem;
+  background-color: #d1d1d1;
+  padding-left: 1rem;
+  width: 17rem;
+}
+.mailinput ::placeholder {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.subscribe button {
+  color: rgb(101, 101, 101);
+  background-color: white;
+  margin-left: 52rem;
+  margin-top: -47.8px;
+  position: absolute;
+  font-weight: bold;
+  border-radius: 0px 26px 26px 0px;
+  border: none;
+  width: 9rem;
+  height: 47.8px;
+  font-size: 1rem;
+}
+
+.motiongraphics {
+}
+
+.motiongraphics h3 {
+  margin-top: 9rem;
+  color: white;
+  margin-left: 6rem;
+}
+
+.motiongraphics h1 {
+  color: #c4e5f6;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
+.motiongraphics p {
+  margin-top: -3.8rem;
+  color: white;
+  margin-left: 39rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.imageone h2 {
+  margin-left: 6.3rem;
+  color: white;
+  margin-top: 7rem;
+  padding-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.imageone img {
+  height: 22rem;
+  width: 29rem;
+  margin-left: 6.4rem;
+}
+
+.imageone h1 {
+  margin-left: 14rem;
+  margin-top: -13rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.papadiv {
+  display: flex;
 }
