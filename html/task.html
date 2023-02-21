@@ -141,6 +141,57 @@
       });
 
       console.log(newarray1);
+
+      var baba = [60, 70, 80, 90, 10];
+      var newArrayb = [];
+      for (var item of baba) {
+        if (item >= 60) {
+          newArrayb.push("pass");
+        } else {
+          newArrayb.push("fail");
+        }
+      }
+
+      console.log(newArrayb);
+
+      var a = [40, 40, 30, 20, 60];
+      var a = a.map(function (item) {
+        if (item >= 60) {
+          return "pass";
+        } else {
+          return "fail";
+        }
+      });
+
+      console.log(a);
+
+      var ankit = [100, 90, 89, 99, 98];
+      var ankit1 = ankit.map(function (item) {
+        if (item >= 60) {
+          return "pass";
+        } else {
+          return "fail";
+        }
+      });
+
+      console.log(ankit1);
+
+      var abc = [1, 2, 1, 2, 1, 2];
+      var sum = 0;
+      for (i = 0; i < abc.length; i++) {
+        sum = sum + abc[i];
+      }
+
+      console.log(sum);
+
+      var a = [5, 9, 8, 1, 6];
+
+      var sum = 0;
+
+      for (i = 0; i < a.length; i++) {
+        sum = sum + a[i];
+      }
+      console.log(sum);
     </script>
   </body>
 </html>
