@@ -4,16 +4,20 @@
   background-color: #121212;
 }
 
+.maindiv {
+  display: flex;
+  width: 100%;
+}
 .main h1 {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 6rem;
   font-size: 24px;
   color: white;
 }
 
 .baba {
-  margin-left: 41rem;
-  margin-top: -2rem;
+  /* margin-left: 32rem; */
+  margin-top: 3rem;
   padding: 2px;
 }
 
@@ -25,32 +29,68 @@
   border-bottom: 2px solid red;
 }
 
+.mainbaba {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  justify-content: space-between;
+}
+
+.imge {
+  width: 60%;
+}
+
 .imge img {
   height: 30rem;
-  width: 46rem;
+  /* width: 46rem; */
   margin-top: 7rem;
   margin-left: 5rem;
 }
+
 .heding h1 {
-  margin-top: -25rem;
-  margin-left: 55rem;
+  margin-top: 7rem;
+  margin-left: 8rem;
   color: #c4e5f6;
   font-size: 3.7rem;
   font-family: "DM Sans", sans-serif;
   font-weight: 16px;
+  /* width: 20%; */
+}
+
+.heding {
+  width: 40%;
 }
 
 .heding p {
   color: white;
-  margin-left: 55.5rem;
-  margin-top: 1rem;
+  margin-left: 8.7rem;
+  margin-top: 3rem;
   font-family: system-ui;
 }
+
 .heding h2 {
   color: white;
-  margin-left: 55.5rem;
-  margin-top: 1rem;
+  margin-left: 8.9rem;
+  margin-top: 3rem;
 }
+
+/* @media (max-width: 750px) {
+  .baba a {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .maindiv {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .heding p {
+    width: 40rem;
+  }
+} */
 
 .imge img:hover {
   transform: scale(1.02);
@@ -58,17 +98,43 @@
   filter: brightness(70%);
 }
 
+.blocks1img {
+  width: 47%;
+}
+
 .blockimg {
   height: 44rem;
-  width: 30rem;
+  width: 100%;
   margin-left: 5rem;
   margin-top: 14rem;
 }
 
+/* block parts */
+
+/* @media only screen and (max-width: 400px) {
+  .blocks1 {
+    display: block;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 678px) {
+  .blocks1 img {
+    width: 700px;
+  }
+} */
+
+.blocks1 {
+  display: flex;
+  width: 100%;
+}
+
+.blocks1h1 {
+  width: 52%;
+}
 .blocks1 h1 {
   color: #c4e5f6;
-  margin-top: -43rem;
-  margin-left: 41rem;
+  margin-top: 14rem;
+  margin-left: 7rem;
   font-size: 3.3rem;
   font-family: "DM Sans", sans-serif;
   font-weight: 100;
@@ -77,21 +143,22 @@
 .blocks1 p {
   color: white;
   font-size: 1.7rem;
-  margin-left: 41rem;
+  margin-left: 8rem;
   margin-top: 2rem;
   line-height: 2.3rem;
 }
 .ul li {
   color: white;
-  margin-left: 43rem;
+  margin-left: 9.3rem;
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
   font-weight: 100;
   margin-top: 1rem;
 }
+
 .h3 {
   color: white;
-  margin-left: 41rem;
+  margin-left: 8rem;
   margin-top: 2rem;
   font-size: 2rem;
 }
@@ -162,19 +229,32 @@
   margin-left: 3rem;
 }
 
+.imgediv {
+  width: 100%;
+  display: flex;
+}
+
 .imgediv img {
   height: 32rem;
-  width: 49rem;
-  margin-left: 14rem;
+  width: 100%;
   margin-top: 10rem;
 }
+
 .rect {
   height: 15rem;
   width: 15rem;
   color: pink;
   background-color: #1c427e;
-  margin-left: 49rem;
+  margin-left: 41rem;
   margin-top: -14.3rem;
+}
+
+/* .text_videosp {
+  display: flex;
+} */
+
+.motiongwe {
+  width: 100%;
 }
 .text_videos p {
   z-index: 5;
@@ -195,6 +275,9 @@
   margin-top: 163rem;
 }
 
+.circlework {
+  width: 100%;
+}
 .gallery1img {
   height: 21rem;
   width: 14rem;
@@ -249,6 +332,7 @@
 
 .gallery {
   display: flex;
+  width: 100%;
 }
 
 .gallery1 :hover {
@@ -257,6 +341,7 @@
 
 .gallery1 {
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 25%;
 }
 .bordergallary4 {
   border-right: 1px dotted rgba(255, 255, 255, 0.5);
@@ -296,9 +381,11 @@
 .author {
   color: #c4e5f6;
   font-size: 2.8rem;
-  margin-left: 56rem;
+
   margin-top: 5rem;
   font-family: sans-serif;
+  text-align: end;
+  margin-right: 8rem;
 }
 
 .author p {
@@ -328,9 +415,13 @@
 .maingallary {
 }
 
+.mainimg {
+  width: 100%;
+}
+
 .img1 img {
   height: 36rem;
-  width: 46rem;
+  width: 89%;
   margin-top: 4rem;
   margin-left: 2.5rem;
 }
