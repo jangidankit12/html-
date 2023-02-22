@@ -9,3 +9,28 @@ get value of index1 var
 array1=['a','b','c',5,10] 
 var data = array1[1]
  console.log(data)
+
+first task  
+age array  max 10 item in a array with name and age 
+and check aligibility valid for vote or not
+
+2nd task 
+complete task with 3 function
+
+
+
+var global assign and reassign 
+let 
+const 
+
+
+function = blocks of code 
+
+named =function
+annonomus = function 
+arrow = function
+
+
+const sum = (a,b) => a+b
+
+sum(10,20)
