@@ -36,4 +36,6 @@ const sum = (a,b) => a+b
 sum(10,20)
 
 
+map function 
 
+map = data ko iterate krta h 
