@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" placeholder="enter" id="yes" />
+
+    <button id="no">search</button><br />
+
+    <table border="4">
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>address</th>
+      </tr>
+      <tr>
+        <td id="abc"></td>
+        <td id="abd"></td>
+        <td id="adc"></td>
+      </tr>
+
+      <tr>
+        <td id="ok"></td>
+        <td id="ko"></td>
+        <td id="ke"></td>
+      </tr>
+
+      <tr>
+        <td id="op"></td>
+        <td id="po"></td>
+        <td id="pe"></td>
+      </tr>
+      <tr>
+        <td id="lo"></td>
+        <td id="ol"></td>
+        <td id="le"></td>
+      </tr>
+      <tr>
+        <td id="A"></td>
+        <td id="B"></td>
+        <td id="C"></td>
+      </tr>
+      <tr>
+        <td id="D"></td>
+        <td id="E"></td>
+        <td id="F"></td>
+      </tr>
+      <tr>
+        <td id="A1"></td>
+        <td id="B1"></td>
+        <td id="C1"></td>
+      </tr>
+      <tr>
+        <td id="ak"></td>
+        <td id="baba"></td>
+        <td id="shyam"></td>
+      </tr>
+    </table>
+    <script>
+      var a = [
+        { name: "ankit", age: 21, address: "pune" },
+        { name: "mohit", age: 20, address: "kerla" },
+        { name: "pranjal", age: 21, address: "delhi" },
+        { name: "ram", age: 22, address: "patna" },
+        { name: "shyam", age: 23, address: "up" },
+        { name: "mohan", age: 25, address: "jaipur" },
+        { name: "sohan", age: 40, address: "kota" },
+      ];
+      //   var a = b.filter(function (a) {
+      //     console.log(a);
+      //   });
+      //   for (var i of a) {
+      //     console.log(i.name, i.age, i.address);
+
+      //     // console.log(a[i].name, a[0].age);
+      //   }
+      //   document.querySelector("#abc").innerHTML = a[0].name;
+      //   document.querySelector("#abd").innerHTML = a[0].age;
+      //   document.querySelector("#adc").innerHTML = a[0].address;
+      //   document.querySelector("#ok").innerHTML = a[1].name;
+      //   document.querySelector("#ko").innerHTML = a[1].age;
+      //   document.querySelector("#ke").innerHTML = a[1].address;
+      //   document.querySelector("#op").innerHTML = a[2].name;
+      //   document.querySelector("#po").innerHTML = a[2].age;
+      //   document.querySelector("#pe").innerHTML = a[2].address;
+      //   document.querySelector("#lo").innerHTML = a[3].name;
+      //   document.querySelector("#ol").innerHTML = a[3].age;
+      //   document.querySelector("#le").innerHTML = a[3].address;
+      //   document.querySelector("#A").innerHTML = a[4].name;
+      //   document.querySelector("#B").innerHTML = a[4].age;
+      //   document.querySelector("#C").innerHTML = a[4].address;
+      //   document.querySelector("#D").innerHTML = a[5].name;
+      //   document.querySelector("#E").innerHTML = a[5].age;
+      //   document.querySelector("#F").innerHTML = a[5].address;
+      //   document.querySelector("#A1").innerHTML = a[6].name;
+      //   document.querySelector("#B1").innerHTML = a[6].age;
+      //   document.querySelector("#C1").innerHTML = a[6].address;
+      //   document.querySelector("#ak").innerHTML = a[7].name;
+      //   document.querySelector("#baba").innerHTML = a[7].age;
+      //   document.querySelector("#shyam").innerHTML = a[7].address;
+
+      document.querySelector("#no").onclick = function () {
+        let b = document.querySelector("#yes").value;
+
+        const arr = a.filter(function (item) {
+          return item.name == b;
+        });
+        console.log(arr);
+      };
+    </script>
+  </body>
+</html>
