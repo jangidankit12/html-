@@ -39,3 +39,41 @@ sum(10,20)
 map function 
 
 map = data ko iterate krta h 
+
+
+control and uncontrol element
+
+control = esa element jo ki react ki state ke duwara mange kiya jaa raha ho.
+uncontrol= esa element jo ki react ki state ko mange nhi krta ho
+
+child component
+parent component
+
+fragment =
+react fragment jb koi tag use nnhi krna ho to react fragment use lete h 
+ex: <>
+
+props = is no a property of component itself regret of props child of a parent component we can not update in the child component 
+
+data binding are have 2 type 
+one way 
+2way binding
+
+react are one way binding
+
+
+
+most Question :
+
+function - Arrow function
+async await 
+promises 
+call back
+
+
+
+
+REACT-router 
+react-router-dom
+
+we will create a routes fil in overcase route fil we will define every doubt and their crosbonding component
