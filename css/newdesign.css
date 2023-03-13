@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.no1 {
+  width: 100%;
+}
+
+.navbar {
+  margin-left: 43rem;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a :hover {
+  color: aqua;
+}
+
+.no2 {
+  width: 100%;
+}
+
+.headerimg img {
+  width: 100%;
+  height: 35rem;
+}
+.no3 {
+  width: 100%;
+}
+
+.no3gallry {
+  display: flex;
+  width: 25%;
+}
+.no3gallry img {
+  width: 24rem;
+
+  margin: 18px;
+}

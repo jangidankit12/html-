@@ -77,3 +77,25 @@ REACT-router
 react-router-dom
 
 we will create a routes fil in overcase route fil we will define every doubt and their crosbonding component
+
+
+rerender : when props and state are update then component are rerender
+
+use effect 2 arrgument accept krta h 1st function 2nd defpandance array
+
+set interval  are accept two component 1st one is arrow function 2nd one is milisecond
+
+
+
+
+single web page app
+componet (function)
+states
+props
+child component
+parent component
+hooks :- use state, use navigate, use effect are use for make side effect
+routing : react-router , react-router-dom
+jsx
+json
+condional rendering
